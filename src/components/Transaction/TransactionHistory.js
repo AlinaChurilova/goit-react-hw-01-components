@@ -1,4 +1,6 @@
 import s from './Transaction.module.css';
+import PropTypes from 'prop-types';
+
 export default function TransactionHistory(props) {
     const { items } = props;
 
@@ -19,4 +21,7 @@ export default function TransactionHistory(props) {
     </tr>))}
  </tbody>
 </table>
+}
+TransactionHistory.propTypes = {
+    items: PropTypes.array,  
 }
