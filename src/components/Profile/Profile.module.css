@@ -1,0 +1,43 @@
+.Description {
+    display: block;
+   margin-right: auto;
+   margin-left: auto; 
+   text-align: center;
+}
+.Avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.Stats {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.Name {
+    margin: 10px 0 10px 0;
+    font-weight: 900;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.Tag{
+    
+    line-height: 1.14;
+    font-size: 20px
+}
+.Location{
+ 
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-size: 20px;
+}
